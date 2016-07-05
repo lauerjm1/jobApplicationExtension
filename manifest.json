@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2,
+	"name": "Job Applier",
+	"version": "1.0",
+	
+	//"default_locale": "en",
+	"description": "Automates the job application process, so that the user only has to enter his information once, and the extension fills out subsequent applications.",
+	// TODO:- Get more icons
+	"icons":
+	{
+	"48": "icon48.png"
+	},
+	
+	"browser_action":
+	{
+		"default_icon": "icon48.png",
+		"default_popup": "popup.html"
+	},
+	
+	"permissions":
+	[
+		"activeTab"
+	]
+}
